@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Result Page</title>
+        <link rel="stylesheet" href="resultstyle.css">
+    </head>
+    <body>
+        <form align="center">
+            <h1>Student Result Summary</h1>
+            <div class="container">
+                <label for="Session">Session</label> &nbsp;&nbsp;&nbsp;
+                <select name="Session" id="Session" required>
+                    <option value="--------">Select the session&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                    <option value="1st semester">1st semester</option>
+                    <option value="2nd semester">2nd semester</option>
+                    <option value="3rd semester">3rd semester</option>
+                    <option value="4th semester">4th semester</option>
+                </select>
+
+                <br> <br> <br>
+
+                <label for="Reg No">Reg No</label> &nbsp;&nbsp;&nbsp;
+                <input type="number" required>
+
+                <br> <br> <br>
+
+                <label for="DOB">DOB</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="date" name="date" id="date" required> 
+
+                <br><br><br>
+                <button type="login">View Result</button>
+                <br><br>
+                <button type="login">Reset</button>
+
+            </div>
+        </form>
+
+    </body>
+</html>

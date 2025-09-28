@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* General Body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(127, 206, 255);
+  color: #333;
+  /* padding-bottom: 80px; */
+}
+
+/* Navbar */
+.navbar-brand {
+  font-weight: bold;
+  /* background-color: aqua; */
+}
+
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+
+.card-row {
+  display: flex;
+  gap: 1rem;
+  /* Optional: space between cards */
+  flex-wrap: wrap;
+  /* Optional: wrap to next line on small screens */
+  justify-content: center;
+  /* Optional: center the cards */
+}
+
+
+/* Individual Card */
+.card {
+  width: 20rem;
+  border: 1px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Image Styling */
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Card Text */
+.card-body {
+  padding: 15px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #444;
+}
+
+/* Responsive (stack on small screens) */
+@media (max-width: 576px) {
+  .card {
+    width: 100%;
+  }
+}
+
+
+/* Footer */
+footer {
+  background-color: #0875e3;
+  color: white;
+  height: 180px;
+  width: 100%; 
+  padding: 10px;
+  /* margin-top: 40px; */
+}
+
+
+@media (max-width: 768px) {
+  form {
+    width: 90% !important;
+    margin: auto;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90% !important;
+  }
+}
+
+
+
+
+/* Outer container */
+.container {
+    width: 100%;
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    padding: 40px 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Heading */
+.container h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #2c3e50;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/* Inner form container */
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Form styles */
+form {
+    width: 100%;
+}
+
+/* Label styles */
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #34495e;
+}
+
+/* Input & select fields */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: inherit;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #fff;
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive improvements */
+@media (max-width: 600px) {
+    .container {
+        padding: 25px 20px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+/* Remove <center> tag use */
+footer {
+  text-align: center;
+}
